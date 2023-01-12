@@ -1,0 +1,26 @@
+2023-01-08 02:54:36.457 [info] Log level: Info
+2023-01-08 02:54:36.457 [info] Validating found git in: "git"
+2023-01-08 02:54:36.457 [info] Using git "2.38.2" from "git"
+2023-01-08 02:54:36.457 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-08 02:54:36.457 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2023-01-08 02:54:36.457 [info] Open repository: /home/luckysimba/rust/actix-gcd
+2023-01-08 02:54:36.457 [info] > git config --get commit.template [6ms]
+2023-01-08 02:54:36.457 [info] > git rev-parse --show-toplevel [11ms]
+2023-01-08 02:54:36.457 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-08 02:54:36.457 [warning] No remotes found in the git config file.
+2023-01-08 02:54:36.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-01-08 02:54:36.457 [info] > git remote --verbose [0ms]
+2023-01-08 02:54:36.457 [info] > git status -z -uall [4ms]
+2023-01-08 02:54:36.457 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-08 02:54:36.457 [info] > git config --get commit.template [3ms]
+2023-01-08 02:54:36.457 [warning] No remotes found in the git config file.
+2023-01-08 02:54:36.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-01-08 02:54:36.457 [info] > git remote --verbose [17ms]
+2023-01-08 02:54:36.457 [info] > git status -z -uall [6ms]
+2023-01-08 02:54:36.457 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-01-08 02:54:36.684 [info] > git show --textconv :Cargo.toml [7ms]
+2023-01-08 02:54:36.685 [info] > git ls-files --stage -- /home/luckysimba/rust/actix-gcd/Cargo.toml [2ms]
+2023-01-08 02:54:36.860 [info] > git check-ignore -v -z --stdin [3ms]
+2023-01-08 02:54:40.068 [info] > git show --textconv :src/main.rs [5ms]
+2023-01-08 02:54:40.068 [info] > git ls-files --stage -- /home/luckysimba/rust/actix-gcd/src/main.rs [1ms]
+2023-01-08 02:57:09.641 [info] > git check-ignore -v -z --stdin [2ms]

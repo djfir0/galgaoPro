@@ -1,0 +1,7 @@
+import:
+  - ~/.alacritty-colorscheme/themes/terminal_app.yaml
+
+window:
+    opacity: 0.8
+font:
+  size: 7.5

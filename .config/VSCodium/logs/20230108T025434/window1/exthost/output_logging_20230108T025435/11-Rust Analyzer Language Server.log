@@ -1,0 +1,10 @@
+[ERROR rust_analyzer::lsp_utils] rust-analyzer failed to load workspace: Failed to find sysroot for Cargo.toml file /home/luckysimba/rust/actix-gcd/Cargo.toml. Is rust-src installed?: can't load standard library from sysroot
+/usr/lib/rust/1.65.0
+(discovered via `rustc --print sysroot`)
+try installing the Rust source the same way you installed rustc
+
+[ERROR rust_analyzer::lsp_utils] rust-analyzer failed to load workspace: Failed to find sysroot for Cargo.toml file /home/luckysimba/rust/actix-gcd/Cargo.toml. Is rust-src installed?: can't load standard library from sysroot
+/usr/lib/rust/1.65.0
+(discovered via `rustc --print sysroot`)
+try installing the Rust source the same way you installed rustc
+

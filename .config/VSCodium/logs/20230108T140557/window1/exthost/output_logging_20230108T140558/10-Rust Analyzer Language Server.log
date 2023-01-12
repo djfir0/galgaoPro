@@ -1,0 +1,98 @@
+[ERROR rust_analyzer::lsp_utils] rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /home/luckysimba/rust/actix-gcd/Cargo.toml, Some(Version { major: 1, minor: 66, patch: 0 }): Failed to run `"cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/luckysimba/rust/actix-gcd/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error:     Updating crates.io index
+warning: spurious network error (2 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+warning: spurious network error (1 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+error: failed to get `actix-web` as a dependency of package `actix-gcd v0.1.0 (/home/luckysimba/rust/actix-gcd)`
+
+Caused by:
+  failed to load source for dependency `actix-web`
+
+Caused by:
+  Unable to update registry `crates-io`
+
+Caused by:
+  failed to fetch `https://github.com/rust-lang/crates.io-index`
+
+Caused by:
+  network failure seems to have happened
+  if a proxy or similar is necessary `net.git-fetch-with-cli` may help here
+  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+
+Caused by:
+  failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+
+[ERROR flycheck] Flycheck failed to run the following command: "cargo" "check" "--workspace" "--message-format=json" "--manifest-path" "/home/luckysimba/rust/actix-gcd/Cargo.toml" "--all-targets"
+[ERROR rust_analyzer::lsp_utils] cargo check failed
+
+Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+    Updating crates.io index
+warning: spurious network error (2 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+warning: spurious network error (1 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+error: failed to get `actix-web` as a dependency of package `actix-gcd v0.1.0 (/home/luckysimba/rust/actix-gcd)`
+
+Caused by:
+  failed to load source for dependency `actix-web`
+
+Caused by:
+  Unable to update registry `crates-io`
+
+Caused by:
+  failed to fetch `https://github.com/rust-lang/crates.io-index`
+
+Caused by:
+  network failure seems to have happened
+  if a proxy or similar is necessary `net.git-fetch-with-cli` may help here
+  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+
+Caused by:
+  failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+
+[ERROR rust_analyzer::lsp_utils] rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /home/luckysimba/rust/actix-gcd/Cargo.toml, Some(Version { major: 1, minor: 66, patch: 0 }): Failed to run `"cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/luckysimba/rust/actix-gcd/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error:     Updating crates.io index
+warning: spurious network error (2 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+warning: spurious network error (1 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+error: failed to get `actix-web` as a dependency of package `actix-gcd v0.1.0 (/home/luckysimba/rust/actix-gcd)`
+
+Caused by:
+  failed to load source for dependency `actix-web`
+
+Caused by:
+  Unable to update registry `crates-io`
+
+Caused by:
+  failed to fetch `https://github.com/rust-lang/crates.io-index`
+
+Caused by:
+  network failure seems to have happened
+  if a proxy or similar is necessary `net.git-fetch-with-cli` may help here
+  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+
+Caused by:
+  failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+
+[ERROR flycheck] Flycheck failed to run the following command: "cargo" "check" "--workspace" "--message-format=json" "--manifest-path" "/home/luckysimba/rust/actix-gcd/Cargo.toml" "--all-targets"
+[ERROR rust_analyzer::lsp_utils] cargo check failed
+
+Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+    Updating crates.io index
+warning: spurious network error (2 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+warning: spurious network error (1 tries remaining): failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+error: failed to get `actix-web` as a dependency of package `actix-gcd v0.1.0 (/home/luckysimba/rust/actix-gcd)`
+
+Caused by:
+  failed to load source for dependency `actix-web`
+
+Caused by:
+  Unable to update registry `crates-io`
+
+Caused by:
+  failed to fetch `https://github.com/rust-lang/crates.io-index`
+
+Caused by:
+  network failure seems to have happened
+  if a proxy or similar is necessary `net.git-fetch-with-cli` may help here
+  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+
+Caused by:
+  failed to resolve address for github.com: Temporary failure in name resolution; class=Net (12)
+
+[ERROR rust_analyzer::handlers] attempted inlayHints/resolve of 'file:///home/luckysimba/rust/actix-gcd/src/main.rs' at version 989 while server version is 990
+[ERROR rust_analyzer::handlers] attempted inlayHints/resolve of 'file:///home/luckysimba/rust/actix-gcd/src/main.rs' at version 1024 while server version is 1025

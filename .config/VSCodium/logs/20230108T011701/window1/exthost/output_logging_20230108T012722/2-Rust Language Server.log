@@ -1,0 +1,10 @@
+[Error - 1:28:39 AM] Starting client failed
+Error: Command failed: rustup toolchain list
+/bin/sh: line 1: rustup: command not found
+
+	at ChildProcess.exithandler (node:child_process:408:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)

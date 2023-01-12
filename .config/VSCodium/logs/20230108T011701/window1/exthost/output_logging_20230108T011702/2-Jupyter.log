@@ -1,0 +1,28 @@
+VSCodium (1.74.2, undefined, desktop)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.20.1.
+No workspace folder opened.
+info 01:18:44.142: ZMQ install verified.
+info 01:18:44.299: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 01:18:44.307: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 01:18:44.310: Process Execution: > jupyter lab --version
+> jupyter lab --version
+info 01:18:44.432: Got empty env vars with python /usr/lib/python-exec/python3.10/python in 8ms
+info 01:18:44.437: Process Execution: > /usr/lib/python-exec/python3.10/python -m pip list
+> /usr/lib/python-exec/python3.10/python -m pip list
+info 01:18:44.471: Process Execution: > /usr/lib/python-exec/python3.10/python -c "import pip"
+> /usr/lib/python-exec/python3.10/python -c "import pip"
+error 01:18:44.494: interpreterPackages getPackageInformation, Class name = r, completed in 71ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/usr/lib/python-exec/python3.10/python","sysPrefix":"/usr/lib/python-exec/python3.10/../../..","envPath":{"$mid":1,"fsPath":"/usr/lib/python-exec/python3.10/python","path":"/usr/lib/python-exec/python3.10/python","scheme":"file"},"uri":{"$mid":1,"fsPath":"/usr/lib/python-exec/python3.10/python","external":"file:///usr/lib/python-exec/python3.10/python","path":"/usr/lib/python-exec/python3.10/python","scheme":"file"},"envType":"Unknown","version":{"major":3,"minor":10,"patch":9,"raw":"3.10.9 (main, Dec 11 2022, 17:36:21) [GCC 11.3.0]"}}} [i [Error]: Module 'pip' not installed.
+	at l.execModule (/home/luckysimba/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:84160)
+	at async r.getPackageInformation (/home/luckysimba/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:42560)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 01:27:21.313: Shutting down notebooks for 579a6f5f-95c0-447a-8e96-f33034f3cb9e
+info 01:27:21.313: Disposing HostJupyterExecution 24647bb2-a7a0-4319-b5a9-e723a4151371
+info 01:27:21.313: Disposing super HostJupyterExecution 24647bb2-a7a0-4319-b5a9-e723a4151371
+info 01:27:21.313: Disposing HostJupyterExecution 24647bb2-a7a0-4319-b5a9-e723a4151371
+info 01:27:21.313: Finished disposing HostJupyterExecution  24647bb2-a7a0-4319-b5a9-e723a4151371
+info 01:27:21.315: Cleaning up server cache 24647bb2-a7a0-4319-b5a9-e723a4151371
+info 01:27:21.315: Finished disposing HostJupyterExecution  24647bb2-a7a0-4319-b5a9-e723a4151371

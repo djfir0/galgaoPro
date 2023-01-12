@@ -1,0 +1,355 @@
+2023-01-08 01:17:02.186 [info] Extension host with pid 15612 started
+2023-01-08 01:17:02.235 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-08 01:17:02.249 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-08 01:17:02.249 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-08 01:17:02.321 [info] Eager extensions activated
+2023-01-08 01:17:02.327 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:17:02.327 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:17:02.327 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:17:09.259 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 01:17:09.259 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 01:17:09.259 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 01:18:43.822 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onWalkthrough:jupyterWelcome'
+2023-01-08 01:18:43.823 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2023-01-08 01:18:44.326 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-01-08 01:18:45.501 [error] Error: Module 'pip' not installed.
+	at l.execModule (/home/luckysimba/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:84160)
+	at async r.getPackageInformation (/home/luckysimba/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:42560)
+2023-01-08 01:23:06.049 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: false, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-01-08 01:23:06.055 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: false, activationEvent: '*'
+2023-01-08 01:23:06.076 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: false, activationEvent: '*'
+2023-01-08 01:23:06.079 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-01-08 01:23:06.079 [error] Error: Cannot find module '/home/luckysimba/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /opt/vscodium/resources/app/out/vs/loader.js
+- /opt/vscodium/resources/app/out/bootstrap-amd.js
+- /opt/vscodium/resources/app/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+	at Module._load (node:internal/modules/cjs/loader:785:27)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at r._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+	at w._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+	at v._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/opt/vscodium/resources/app/out/vs/loader.js:5:101)
+	at d.pb (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+2023-01-08 01:27:21.301 [info] Extension host terminating: received terminate message from renderer
+2023-01-08 01:27:21.315 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-01-08 01:27:21.318 [info] Extension host with pid 15612 exiting with code 0
+2023-01-08 01:27:22.376 [info] Extension host with pid 23887 started
+2023-01-08 01:27:22.376 [info] Skipping acquiring lock for /home/luckysimba/.config/VSCodium/User/workspaceStorage/291bc96a207176460546dd592ba2b0d4.
+2023-01-08 01:27:22.411 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-08 01:27:22.411 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-01-08 01:27:22.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-08 01:27:22.419 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-01-08 01:27:22.433 [info] Eager extensions activated
+2023-01-08 01:27:22.443 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:27:22.443 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:27:22.443 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-08 01:27:34.045 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-01-08 01:27:34.066 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: false, activationEvent: '*'
+2023-01-08 01:27:34.071 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-01-08 01:27:34.071 [error] Error: Cannot find module '/home/luckysimba/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /opt/vscodium/resources/app/out/vs/loader.js
+- /opt/vscodium/resources/app/out/bootstrap-amd.js
+- /opt/vscodium/resources/app/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+	at Module._load (node:internal/modules/cjs/loader:785:27)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at r._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+	at w._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+	at v._load (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/opt/vscodium/resources/app/out/vs/loader.js:5:101)
+	at d.pb (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+2023-01-08 01:27:34.071 [info] ExtensionService#_doActivateExtension rust-lang.rust, startup: false, activationEvent: 'workspaceContains:Cargo.toml'
+2023-01-08 01:27:34.071 [info] ExtensionService#_doActivateExtension serayuzgur.crates, startup: false, activationEvent: 'workspaceContains:Cargo.toml'
+2023-01-08 01:28:39.104 [info] ExtensionService#_doActivateExtension bungcip.better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2023-01-08 01:28:39.105 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:toml', root cause: ms-python.isort
+2023-01-08 01:28:39.233 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:toml'
+2023-01-08 01:28:40.106 [error] Error: Command failed: rustup toolchain list
+/bin/sh: line 1: rustup: command not found
+
+	at ChildProcess.exithandler (node:child_process:408:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)
+2023-01-08 01:30:24.337 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+2023-01-08 02:17:06.607 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2023-01-08 02:19:57.682 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:19:57.683 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:15:25)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:20:24.775 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:20:24.776 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:15:25)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:20:32.385 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:20:32.385 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:15:25)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:20:44.976 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:20:44.976 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:20:29)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:20:50.527 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:20:50.529 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:15:25)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:21:01.589 [error] [rust-lang.rust] provider FAILED
+2023-01-08 02:21:01.590 [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal/out/src/providers/signatureHelpProvider.js:15:25)
+	at J.provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:48903)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65422
+	at se.s (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:65409)
+	at u.N (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11208)
+	at u.M (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10926)
+	at u.H (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9981)
+	at u.G (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9000)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:51:31.025 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 02:51:31.025 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 02:51:31.025 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-08 02:54:13.106 [info] Extension host terminating: received terminate message from renderer
+2023-01-08 02:54:13.119 [error] Canceled: Canceled
+	at new k (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:87831)
+	at u.O (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11245)
+	at G.<computed>.O.charCodeAt.G.<computed> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:8535)
+	at s.g (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:107046)
+	at s.executeCommand (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:106422)
+	at Object.executeCommand (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:30829)
+	at Tl (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1348-linux-x64/out/main.js:39:61689)
+	at Object.PS (/home/luckysimba/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1348-linux-x64/out/main.js:99:358)
+	at d.X (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11333)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9301
+	at Array.map (<anonymous>)
+	at d.Q (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9288)
+	at d.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9563)
+	at f.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:1397)
+	at b (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:17815)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15750
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at w.deliver (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at Socket.l (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-08 02:54:13.122 [info] Extension host with pid 23887 exiting with code 0
